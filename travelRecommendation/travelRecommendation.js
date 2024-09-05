@@ -78,6 +78,8 @@ function search(){
 
 function reset(){
     console.log('reset');
+    const search_term = document.getElementById("search");
+    search_term.value = '';
     resultContainer = document.getElementById('results');
     resultContainer.innerHTML = '';
 }
