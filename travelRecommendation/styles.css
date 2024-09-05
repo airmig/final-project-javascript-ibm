@@ -1,0 +1,54 @@
+.main-section {
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    background-image: url('http://adq.eai.today/travelbloom/home.webp'); 
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    position: relative; /* Ensure positioning context for child elements */
+ 
+}
+body {
+    background-color: black;
+}
+
+.hero {
+    padding-top:80px;
+    padding-left: 100px;
+}
+.hero-title{
+    color:white;
+    font-size: 5rem;
+}
+.hero-content, .hero-contact{
+    color: black;
+    background-color:white;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.social {
+    font-size: 3rem;
+}
+.team {
+    color: white;
+}
+.card {
+    background-color: white;
+}
+.card-person{
+    padding: 5px;
+    margin: 10px;
+}
+.contact-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form .form-control {
+    border-radius: 4px;
+}
+.contact-form .btn {
+    border-radius: 4px;
+}
