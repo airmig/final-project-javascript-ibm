@@ -1,12 +1,11 @@
-.main-section {
+body {
     height: 100vh; /* Full viewport height */
     width: 100vw;  /* Full viewport width */
     background-image: url('http://adq.eai.today/travelbloom/home.webp'); 
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the image */
-    background-repeat: repeat; /* Do not repeat the image */
-    position: relative; /* Ensure positioning context for child elements */
- 
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: scroll;
 }
 body {
     background-color: black;
@@ -51,4 +50,13 @@ body {
 }
 .contact-form .btn {
     border-radius: 4px;
+}
+
+.results {
+    color: white;
+    font-size: 3rem;
+}
+
+.card-search {
+    font-size: 1rem;
 }
